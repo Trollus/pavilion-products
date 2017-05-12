@@ -1,0 +1,328 @@
+.header {
+    min-height:930px;
+    background: url('../img/house.jpg') top center no-repeat;
+    background-size: 100% auto;
+}
+
+.home-content {
+    margin-top:330px;
+}
+
+#logo {
+    width:500px;
+    height:214px;
+    margin:auto;
+    background-image: url('../img/logo.png')
+}
+
+.item {
+    text-align: center;
+}
+
+.item h1 {
+    font-weight:bold;
+    color:#fcc40f;
+}
+
+.item .btn h1 {
+    color:#fff;
+    font-size:20px;
+    font-weight:bold;
+}
+
+.btn-2 {
+    height:62px;
+    width:380px;
+
+    border:1px solid RGBA(234,234,234, 0.8);
+
+    color:#fff;
+    cursor:pointer;
+
+    box-shadow: 0 3px 0 #bc930d;
+
+
+    /* Градиент для кнопки */
+    background: -moz-linear-gradient(top, rgba(247,200,46,1) 0%, rgba(220,172,18,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(247,200,46,1) 0%,rgba(220,172,18,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(247,200,46,1) 0%,rgba(220,172,18,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00f7c82e', endColorstr='#a6dcac12',GradientType=0 ); /* IE6-9 */
+}
+
+.btn-2 {
+    font-size:20px;
+    text-shadow: 0 1px RGBA(0,0,0,0.3);
+}
+
+.btn-footer {
+    margin-top:20px;
+    float:right;
+    width:156px;
+    height:24px;
+    font-size:10px;
+    font-weight:bold;
+}
+
+button.btn-2:hover {
+    background:#fcc40f url('../img/buttonhover.png') repeat-x;
+    color:#fff;
+}
+
+#leafR {
+    position:absolute;
+    right:0;
+    width:368px;
+    height:292px;
+    background-image: url('../img/leafR.png');
+}
+
+#leafL {
+    position:absolute;
+    top:88px;
+    left:-108px;
+    width:368px;
+    height:292px;
+    background-image: url('../img/leafL.png');
+}
+
+#scheme {
+    position:absolute;
+    right:0;
+    width:458px;
+    height:205px;
+    background-image: url('../img/scheme.jpg');
+}
+
+#scobs {
+    position:absolute;
+    left:0;
+    width:360px;
+    height:811px;
+    background-image: url('../img/scobs.jpg');
+}
+
+#hammer {
+    position:absolute;
+    right:0;
+    width:303px;
+    height:308px;
+    background-image:url('../img/hammer.jpg');
+}
+
+.item {
+    margin:auto;
+}
+
+.img-also {
+    width:230px;
+    height:260px;
+    border: 6px solid #f3f3f3;
+}
+
+.features-bg {
+    height:1003px;
+    background:#2a373f  url('../img/features.jpg') center no-repeat;
+}
+
+#drill {
+    position:absolute;
+    top:2340px;
+    right:0;
+    width:272px;
+    height:439px;
+    z-index:9999;
+    background-image:url('../img/drill.png');
+}
+
+.features {
+    height:365px;
+    background-color:#fff;
+    border-radius: 6px;
+    box-shadow: 10px 10px 5px #000;
+}
+
+.secondRow {
+    position:relative;
+    top:50px;
+}
+
+.feature {
+    padding:40px;
+    height:365px;
+    max-width:307px;
+    background-color:#fff;
+    border-radius: 6px;
+    box-shadow: 0 20px 32px RGBA(0,0,0,0.5);
+}
+
+.feature h1 {
+    color:#000;
+    font-size:20px;
+}
+
+.houses h1 {
+    font-size:25px;
+}
+
+button.btn {
+
+    height:46px;
+    width:225px;
+    border:1px solid RGBA(234,234,234, 0.8);
+
+    color:#fff;
+    cursor:pointer;
+
+    box-shadow: 0 3px 0 #bc930d;
+
+    transition:background 2s, color 2s;
+
+    background: -moz-linear-gradient(top, rgba(247,200,46,1) 0%, rgba(220,172,18,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(247,200,46,1) 0%,rgba(220,172,18,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(247,200,46,1) 0%,rgba(220,172,18,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00f7c82e', endColorstr='#a6dcac12',GradientType=0 ); /* IE6-9 */
+
+    /* BUTTON TEXT */
+    font-size:20px;
+    text-shadow: 0 1px #9dc41c;
+    margin:0;
+}
+
+button.btn:hover {
+    background:#fcc40f url('../img/buttonhover.png') repeat-x;
+    color:#fff;
+}
+
+.tech {
+    height:540px;
+    width:357px;
+    background-color:#fff;
+    border-top-left-radius: 100px;
+    box-shadow: 0 5px 32px RGBA(0,0,0,0.2);
+}
+
+.tech-2 {
+    height:540px;
+    width:357px;
+    background-color:#fff;
+    border-top-right-radius: 100px;
+    box-shadow: 0 5px 32px RGBA(0,0,0,0.2);
+}
+
+#leafR2 {
+    position:absolute;
+    top:4146px;
+    right:0;
+    width:534px;
+    height:404px;
+    background-image: url('../img/leafR2.jpg');
+    z-index:-1;
+}
+
+#leafL2 {
+
+}
+
+
+.gallery-image {
+    position:relative;
+    width:274px;
+    height:360px;
+    background: RGBA(252,202,39,0.7);
+    border-radius:6px;
+    z-index:2;
+}
+
+.img-1 {
+    position:relative;
+    width:274px;
+    height:360px;
+    background: url(../img/img-1.png);
+    z-index:1;
+}
+
+.gallery-image:hover {
+    background: none;
+}
+
+.contact-bg {
+    position:relative;
+    height:410px;
+    background:#2a373f  url('../img/contact-bg.jpg') top center no-repeat;
+    background-size: 100% auto;
+    border-bottom: 3px solid #fcc40f;
+    z-index:99;
+}
+
+.contact-map {
+    position:relative;
+    height:236px;
+    background:#2a373f  url('../img/contact-map.jpg') bottom center no-repeat;
+    background-size: 100% auto;
+}
+
+form input {
+    height:40px;
+    width:240px;
+    border:none;
+    padding-left:48px;
+
+    border-radius:6px;
+
+    box-shadow: 0 3px 0 #6b6b6b;
+}
+
+form input:focus {
+
+    border:1px solid rgba(0,0,0,0.3)
+}
+
+#name {
+    background: url(../img/name.png) #fff no-repeat scroll 10px 11px;
+}
+
+#name:focus {
+    background: url(../img/name-focus.png) #fff no-repeat scroll 10px 10px;
+}
+
+#email {
+    background: url(../img/email.png) #fff no-repeat scroll 10px 11px;
+}
+
+#email:focus {
+    background: url(../img/email-focus.png) #fff no-repeat scroll 10px 10px;
+}
+
+#tel {
+    background: url(../img/phone.png) #fff no-repeat scroll 10px 8px;
+}
+
+#tel:focus {
+    background: url(../img/phone-focus.png) #fff no-repeat scroll 10px 7px;
+}
+
+.footer-company {
+    height:120px;
+    background:#fff;
+}
+
+.footer-company h1 {
+    font-size:13px;
+}
+
+.footer-rights {
+    height:90px;
+    background: #132320;
+}
+
+.footer-rights p {
+    color:#4b5150;
+    padding:10px;
+}
+
+@media(max-width:992px){
+    .footer-rights {
+        min-height: 90px;
+        background: #132320;
+    }
+}

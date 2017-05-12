@@ -1,0 +1,110 @@
+.tech {
+    margin:auto;
+    width:357px;
+    height:442px;
+    border-top-right-radius: 100px;
+    box-shadow: 0 5px 32px RGBA(0,0,0,0.2);
+}
+
+.product-info {
+    margin:auto;
+    padding:24px;
+    width:616px;
+    height:442px;
+    border:1px solid #eeeeee;
+}
+
+.btn {
+    width:278px;
+    height:45px;
+}
+
+.btn-3 {
+    width:40px;
+    height:28px;
+
+    border:1px solid RGBA(234,234,234, 0.8);
+    border-radius: 6px;
+
+    color:#fff;
+    cursor:pointer;
+
+    box-shadow: 0 3px 0 #bc930d;
+    text-shadow: 0 1px 0 #bc930d;
+
+    transition:background 2s, color 2s;
+
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f7c82e+0,dcac12+100&0+0,0.65+100 */
+    background: -moz-linear-gradient(top, rgba(247,200,46,1) 0%, rgba(220,172,18,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(247,200,46,1) 0%,rgba(220,172,18,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(247,200,46,1) 0%,rgba(220,172,18,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00f7c82e', endColorstr='#a6dcac12',GradientType=0 ); /* IE6-9 */
+}
+
+.btn-3:hover {
+    background:#fcc40f url('../img/buttonhover.png') repeat-x;
+}
+
+.buy-also {
+    padding:10px;
+    margin:auto;
+    text-align: center;
+    border-top-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+    border:1px solid #eeeeee;
+}
+
+
+.buy-also img {
+    border: 4px solid #efede7;
+}
+
+
+
+
+
+.btn-2 {
+    height:62px;
+    width:380px;
+
+    border:1px solid RGBA(234,234,234, 0.8);
+
+    color:#fff;
+    cursor:pointer;
+
+    box-shadow: 0 3px 0 #bc930d;
+
+    transition:background 2s, color 2s;
+
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f7c82e+0,dcac12+100&0+0,0.65+100 */
+    background: -moz-linear-gradient(top, rgba(247,200,46,1) 0%, rgba(220,172,18,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(247,200,46,1) 0%,rgba(220,172,18,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(247,200,46,1) 0%,rgba(220,172,18,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00f7c82e', endColorstr='#a6dcac12',GradientType=0 ); /* IE6-9 */
+}
+
+.footer-company {
+    height:120px;
+    background:#fff;
+}
+
+.footer-company h1 {
+    font-size:13px;
+}
+
+.footer-rights {
+    height:80px;
+    background: #132320;
+}
+
+.footer-rights p {
+    color:#4b5150;
+    padding:10px;
+}
+
+@media(max-width:992px){
+    .footer-rights {
+        min-height: 90px;
+        background: #132320;
+    }
+}

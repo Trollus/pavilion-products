@@ -1,0 +1,63 @@
+h1 {
+    text-align: center;
+}
+
+a {
+    color:#fcc40f;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+h2 {
+  /*  border-bottom:10px solid #fcc40f;*/
+    text-align: center;
+    margin:auto;
+
+}
+
+h2::after {
+    position:relative;
+    top:10px;
+    content: '';
+    margin:auto;
+    width: 200px;
+    height: 10px;
+    background: #fcc40f;
+    display: block;
+}
+
+h4 {
+    margin:auto;
+    width:250px;
+
+    color:#fff;
+    font-size:20px;
+    text-align: center;
+    padding:10px;
+    background-color: rgba(0,0,0,0.3);
+}
+
+.text-features {
+    position:relative;
+    width:100%;
+    margin:auto;
+}
+
+.tech p, .tech-2 p {
+    padding-left:15px;
+    padding-right:15px;
+    text-align: justify;
+}
+
+.back {
+    font-size:15px;
+    font-weight:bold;
+    color:#fcc40f;
+    text-decoration: underline;
+}
+
+.back:hover {
+    color:#fcc40f;
+}
